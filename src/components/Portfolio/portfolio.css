@@ -53,7 +53,8 @@
 
 @media screen and (max-width:900px) {
     .portfolioImg {
-        width: calc(100%);
+        width: calc(30% - 1rem);
+        
     }
 }
 

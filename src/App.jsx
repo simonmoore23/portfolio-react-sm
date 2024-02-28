@@ -3,6 +3,7 @@ import Intro from "./components/Intro/intro.jsx"
 import About from "./components/About/about.jsx"
 import Portfolio from "./components/Portfolio/portfolio.jsx";
 import Contact from "./components/Contact/contact.jsx"
+import Footer from "./components/Footer/footer.jsx";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
           <About />
           <Portfolio />
           <Contact />
+          <Footer />
       </div>
   );
 }
