@@ -21,8 +21,8 @@ const Navbar = () => {
         <img src={logo} alt="logo" className="logo"/>
         <div className="menu">
            <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-185} duration={500} className='menuList'>Home</Link>
-           <Link activeClass='active' to='about' spy={true} smooth={true} offset={-160} duration={500} className='menuList'>About</Link>
-           <Link activeClass='active' to='portfolio' spy={true} smooth={true} offset={-150} duration={500} className='menuList'>Portfolio</Link>
+           <Link activeClass='active' to='about' spy={true} smooth={true} offset={-150} duration={500} className='menuList'>About</Link>
+           <Link activeClass='active' to='portfolio' spy={true} smooth={true} offset={-140} duration={500} className='menuList'>Portfolio</Link>
            <a href={Resume} target="_blank" rel="noopener noreferrer" className='menuList'>Resume</a>
         </div>
         <button className="contactBtn" onClick={() => {

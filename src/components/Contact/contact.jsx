@@ -1,7 +1,5 @@
 import React, { useRef } from 'react';
 import './contact.css';
-import LinkedIn from '../../assets/Linkedin-logo-1.png';
-import GitHub from '../../assets/github-logo-1.png';
 import emailjs from '@emailjs/browser';
 
 
@@ -28,15 +26,7 @@ const Contact = () => {
                     <input type="text" className="name" placeholder="Your Name" name='from_name'/>
                     <input type="email" className="email" placeholder="Your Email" name='your_email'/>
                     <textarea className="msg" name="message" rows="10" placeholder="Your Message"></textarea>
-                    <button type="submit" value="send" className="submitBtn">Submit</button>
-                    <div className="links">
-                        <a href="https://www.linkedin.com/in/simon-moore-50228736/" target="_blank" rel="noopener noreferrer">
-                            <img src={LinkedIn} alt="LinkedIn" className="link" />
-                        </a>
-                        <a href="https://github.com/simonmoore23" target="_blank" rel="noopener noreferrer">
-                            <img src={GitHub} alt="GitHub" className="link" />
-                        </a>
-                    </div>    
+                    <button type="submit" value="send" className="submitBtn">Submit</button>    
                 </form>   
             </div>
         </section>
