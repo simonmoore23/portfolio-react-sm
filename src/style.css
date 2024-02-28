@@ -4,11 +4,12 @@
     box-sizing: border-box;
     text-decoration: none;
     background: transparent;
+    font-family: 'Nunito', sans-serif;
 }
 
 body {
     background: rgb(30, 30, 30);
-    color: white;
+    color: rgb(30, 30, 30);
     overflow: hidden;
     overflow-y: scroll;
 }
