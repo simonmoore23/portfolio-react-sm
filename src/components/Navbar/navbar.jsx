@@ -3,7 +3,7 @@ import './navbar.css';
 import logo from '../../assets/Logo_SM_2.png';
 import contactImg from '../../assets/gmail.png';
 import Menu from '../../assets/menu.png'
-import Resume from '../../assets/resume.pdf';
+import Resume from '../../assets/SM CV.pdf';
 import {Link} from 'react-scroll';
 
 const Navbar = () => {
@@ -28,7 +28,7 @@ const Navbar = () => {
         <button className="contactBtn" onClick={() => {
             document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
         }}>
-        <img src={contactImg} alt="" className="contactImg"/>Contact Me</button>
+        <img src={contactImg} alt="" className="contactImg"/>Contact</button>
 
         <img src={Menu} alt="Menu" className="mobMenu" onClick={toggleMenu}/>
         <div className="navMenu" style={{display: showMenu? 'flex':'none'}}>

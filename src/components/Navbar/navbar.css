@@ -46,7 +46,7 @@
     object-fit: cover;
     height: 1rem;
     width: 1rem;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 .active {
